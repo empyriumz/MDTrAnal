@@ -13,7 +13,7 @@ size = comm.Get_size()
 
 #bpfile = '../src/nwchem_xyz.bp'
 engine = 'SST'
-bpfile = '/Codar/nwchem-1/QA/tests/ethanol/nwchem_xyz.bp'
+bpfile = '/Codar/nwchem-1/QA/tests/1h9t/nwchem_xyz.bp'
 
 # For SST engine, replace 'BP' with 'SST'.
 print('Start analysis: {}'.format(rank))
