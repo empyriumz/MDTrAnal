@@ -46,4 +46,6 @@ RUN git checkout xdai_develop
 RUN pip3 install pip --upgrade
 RUN pip3 install numpy scipy matplotlib scikit-learn pillow opencv-python
 RUN apt-get update && apt-get install -y openbabel nano
+RUN cd /test && cp sst_test.sh /Codar/nwchem-1/QA/tests/1h9t/sst_test.sh
+RUN cp bp_test.sh /Codar/nwchem-1/QA/tests/1h9t/bp_test.sh
 RUN cd /Codar/nwchem-1/QA/tests/1h9t
