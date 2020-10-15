@@ -45,5 +45,5 @@ WORKDIR /MDTrAnal
 RUN git checkout xdai_develop
 RUN pip3 install pip --upgrade
 RUN pip3 install numpy scipy matplotlib scikit-learn pillow opencv-python
-RUN apt-get update && apt-get install -y openbabel
-WORKDIR /Codar/nwchem-1/QA/tests/1h9t
+RUN apt-get update && apt-get install -y openbabel nano
+RUN cd /Codar/nwchem-1/QA/tests/1h9t
